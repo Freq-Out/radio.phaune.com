@@ -1,13 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 #headerLiveHolder, #headerLiveTrackHolder {
     overflow: hidden;
 	position:relative;
 	width:600px!important;
-	font-family: Arial,Helvetica,sans-serif;
-    font-size: 13px;
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
 	margin: 0;
 	padding: 0;
     }
@@ -21,31 +20,31 @@
 	  padding: 0;
 	  }
 	#headerLiveHolder h4 {
-	  font-size:12px;
+	  font-size:20px;
 	  color:#68bd44;
 	  text-transform:uppercase;
 	  font-weight:normal;
-	  line-height:20px;
+	  line-height:30px;
 	  }
 	#headerLiveTrackHolder span#status-current-show {
-	  font-size:18px;
+	  font-size:20px;
 	  color:#5F7211;
 	  text-transform:uppercase;
 	  font-weight:normal;
-	  line-height:20px;
+	  line-height:30px;
 	  }
 	#headerLiveHolder ul li, #headerLiveTrackHolder ul li {
 	  overflow:hidden;
 	  position:relative;
-	  height:18px;
-	  font-size:14px;
+	  height:25px;
+	  font-size:18px;
 	  color:#999999;
-	  line-height:20px;
+	  line-height:30px;
 	  }
 	#headerLiveHolder ul li.current, #headerLiveTrackHolder ul li.current {
-	  font-weight:bold;
-	  color:#666666;
-	  line-height:20px;
+	  font-weight: 800;
+	  color:#404040;
+	  line-height:30px;
 	  }
 	  #headerLiveHolder ul li span {
 		position:absolute;
