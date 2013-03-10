@@ -86,6 +86,7 @@ div.jp-interface {
 
 
 div.jp-audio .jp-interface {
+	background: url("jplayer.play.png") 0 0 no-repeat;
 	height: 80px;
 	padding-top:30px;
 }
@@ -101,7 +102,6 @@ div.jp-controls-holder {
 }
 
 div.jp-interface ul.jp-controls {
-	background: url("jplayer.play.png") 0 0 no-repeat;
 	list-style-type:none;
 	padding: 1px 0 2px 1px;
 	overflow:hidden;
@@ -440,7 +440,7 @@ div.jp-audio .jp-interface .jp-volume-bar,
 
 div.jp-audio-stream .jp-interface .jp-volume-bar {
 	width: 97px;
-	border-right:1px solid #180920;
+	border-right:0px solid #180920;
 	padding-right:1px;
 }
 
