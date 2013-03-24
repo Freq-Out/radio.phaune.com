@@ -76,7 +76,7 @@
     var defaults = {
         updatePeriod: 5, //seconds
         sourceDomain: "http://localhost/", //where to get show status from
-        text: {onAirNow:"On Air Now", offline:"Offline", current:"Current", next:"Next"}
+        text: {onAirNow:"On Air Now", offline:"We'll be Back", current:"Current", next:"Next"}
     };
     options = $.extend(true, defaults, options);    
     options.sourceDomain = addEndingBackslash(options.sourceDomain);
@@ -158,7 +158,7 @@
        var defaults = {
            updatePeriod: 5, //seconds
            sourceDomain: "http://localhost/", //where to get show status from
-           text: {onAirNow:"On Air Now", offline:"Offline", current:"Current", next:"Next"}
+           text: {onAirNow:"On Air Now", offline:"We'll be Back", current:"Current", next:"Next"}
        };
        options = $.extend(true, defaults, options);    
        options.sourceDomain = addEndingBackslash(options.sourceDomain);
